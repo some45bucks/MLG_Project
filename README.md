@@ -1,5 +1,9 @@
 You need to install VizDoom. You can use the repo: https://github.com/Farama-Foundation/ViZDoom, or just `pip install vizdoom`. You need to run this on Linux or WSL or something like that. It will not run otherwise!
 
+You will need torch and torch geometric to run the code also you can install like this: `pip install torch torchvision torchaudio` and `pip install torch-geometric`
+
+I ran this with cuda and I don't think it's required but it might be
+
 I have all the modified code in my repo so you shouln't need to also install sample factory 
 
 You can test the training but it will be slow, but shouldn't error out. I recommend running the eval ones so you can see whats happening, and they are much faster
