@@ -1,0 +1,1928 @@
+[2023-12-05 09:52:14,374][3919663] Saving configuration to /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/config.json...
+[2023-12-05 09:52:14,374][3919663] Rollout worker 0 uses device cpu
+[2023-12-05 09:52:14,374][3919663] Rollout worker 1 uses device cpu
+[2023-12-05 09:52:14,374][3919663] Rollout worker 2 uses device cpu
+[2023-12-05 09:52:14,374][3919663] Rollout worker 3 uses device cpu
+[2023-12-05 09:52:14,374][3919663] Rollout worker 4 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 5 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 6 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 7 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 8 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 9 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 10 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 11 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 12 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 13 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 14 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 15 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 16 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 17 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 18 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 19 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 20 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 21 uses device cpu
+[2023-12-05 09:52:14,375][3919663] Rollout worker 22 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 23 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 24 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 25 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 26 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 27 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 28 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 29 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 30 uses device cpu
+[2023-12-05 09:52:14,376][3919663] Rollout worker 31 uses device cpu
+[2023-12-05 09:52:14,416][3919663] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-05 09:52:14,416][3919663] InferenceWorker_p0-w0: min num requests: 10
+[2023-12-05 09:52:14,523][3919663] Starting all processes...
+[2023-12-05 09:52:14,523][3919663] Starting process learner_proc0
+[2023-12-05 09:52:15,764][3919663] Starting all processes...
+[2023-12-05 09:52:15,767][3919849] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-05 09:52:15,768][3919849] Set environment var CUDA_VISIBLE_DEVICES to '0' (GPU indices [0]) for learning process 0
+[2023-12-05 09:52:15,779][3919663] Starting process inference_proc0-0
+[2023-12-05 09:52:15,779][3919663] Starting process rollout_proc0
+[2023-12-05 09:52:15,780][3919663] Starting process rollout_proc1
+[2023-12-05 09:52:15,780][3919663] Starting process rollout_proc2
+[2023-12-05 09:52:15,781][3919663] Starting process rollout_proc10
+[2023-12-05 09:52:15,780][3919663] Starting process rollout_proc4
+[2023-12-05 09:52:15,780][3919663] Starting process rollout_proc5
+[2023-12-05 09:52:15,781][3919663] Starting process rollout_proc6
+[2023-12-05 09:52:15,781][3919663] Starting process rollout_proc7
+[2023-12-05 09:52:15,781][3919663] Starting process rollout_proc8
+[2023-12-05 09:52:15,781][3919663] Starting process rollout_proc9
+[2023-12-05 09:52:15,780][3919663] Starting process rollout_proc3
+[2023-12-05 09:52:15,782][3919663] Starting process rollout_proc11
+[2023-12-05 09:52:15,784][3919663] Starting process rollout_proc12
+[2023-12-05 09:52:15,784][3919663] Starting process rollout_proc13
+[2023-12-05 09:52:15,786][3919663] Starting process rollout_proc14
+[2023-12-05 09:52:15,871][3919849] Num visible devices: 1
+[2023-12-05 09:52:15,961][3919849] Starting seed is not provided
+[2023-12-05 09:52:15,961][3919849] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-05 09:52:15,961][3919849] Initializing actor-critic model on device cuda:0
+[2023-12-05 09:52:15,962][3919849] RunningMeanStd input shape: (3, 72, 128)
+[2023-12-05 09:52:15,963][3919849] RunningMeanStd input shape: (1,)
+[2023-12-05 09:52:15,974][3919849] ConvEncoder: input_channels=3
+[2023-12-05 09:52:16,290][3919849] Conv encoder output size: 512
+[2023-12-05 09:52:16,290][3919849] Policy head output size: 512
+[2023-12-05 09:52:16,306][3919849] Created Actor Critic model with architecture:
+[2023-12-05 09:52:16,306][3919849] ActorCriticSharedWeights(
+  (obs_normalizer): ObservationNormalizer(
+    (running_mean_std): RunningMeanStdDictInPlace(
+      (running_mean_std): ModuleDict(
+        (obs): RunningMeanStdInPlace()
+      )
+    )
+  )
+  (returns_normalizer): RecursiveScriptModule(original_name=RunningMeanStdInPlace)
+  (encoder): DoomEncoder(
+    (basic_encoder): ConvEncoder(
+      (enc): RecursiveScriptModule(
+        original_name=ConvEncoderImpl
+        (conv_head): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Conv2d)
+          (1): RecursiveScriptModule(original_name=ELU)
+          (2): RecursiveScriptModule(original_name=Conv2d)
+          (3): RecursiveScriptModule(original_name=ELU)
+          (4): RecursiveScriptModule(original_name=Conv2d)
+          (5): RecursiveScriptModule(original_name=ELU)
+        )
+        (mlp_layers): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Linear)
+          (1): RecursiveScriptModule(original_name=ELU)
+        )
+      )
+    )
+  )
+  (core): ModelCoreRNN(
+    (core): GRU(512, 512)
+  )
+  (decoder): MlpDecoder(
+    (mlp): Identity()
+  )
+  (critic_linear): Linear(in_features=512, out_features=1, bias=True)
+  (action_parameterization): ActionParameterizationDefault(
+    (distribution_linear): Linear(in_features=512, out_features=11, bias=True)
+  )
+)
+[2023-12-05 09:52:16,962][3919849] Using optimizer <class 'torch.optim.adam.Adam'>
+[2023-12-05 09:52:16,963][3919849] No checkpoints found
+[2023-12-05 09:52:16,963][3919849] Did not load from checkpoint, starting from scratch!
+[2023-12-05 09:52:16,963][3919849] Initialized policy 0 weights for model version 0
+[2023-12-05 09:52:16,969][3919849] LearnerWorker_p0 finished initialization!
+[2023-12-05 09:52:16,969][3919849] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-05 09:52:19,100][3919663] Starting process rollout_proc15
+[2023-12-05 09:52:19,106][3919663] Starting process rollout_proc16
+[2023-12-05 09:52:19,111][3919933] Worker 1 uses CPU cores [1]
+[2023-12-05 09:52:19,116][3919663] Starting process rollout_proc17
+[2023-12-05 09:52:19,120][3919934] Worker 2 uses CPU cores [2]
+[2023-12-05 09:52:19,130][3920095] Worker 9 uses CPU cores [9]
+[2023-12-05 09:52:19,170][3919663] Starting process rollout_proc18
+[2023-12-05 09:52:19,183][3919663] Starting process rollout_proc19
+[2023-12-05 09:52:19,180][3919931] Worker 0 uses CPU cores [0]
+[2023-12-05 09:52:19,191][3919663] Starting process rollout_proc20
+[2023-12-05 09:52:19,201][3919663] Starting process rollout_proc21
+[2023-12-05 09:52:19,205][3920094] Worker 7 uses CPU cores [7]
+[2023-12-05 09:52:19,209][3920096] Worker 3 uses CPU cores [3]
+[2023-12-05 09:52:19,236][3920097] Worker 11 uses CPU cores [11]
+[2023-12-05 09:52:19,270][3919663] Starting process rollout_proc22
+[2023-12-05 09:52:19,283][3919663] Starting process rollout_proc23
+[2023-12-05 09:52:19,297][3919663] Starting process rollout_proc24
+[2023-12-05 09:52:19,306][3920059] Worker 10 uses CPU cores [10]
+[2023-12-05 09:52:19,315][3920093] Worker 6 uses CPU cores [6]
+[2023-12-05 09:52:19,316][3919663] Starting process rollout_proc25
+[2023-12-05 09:52:19,326][3920101] Worker 4 uses CPU cores [4]
+[2023-12-05 09:52:19,331][3919932] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-05 09:52:19,331][3919932] Set environment var CUDA_VISIBLE_DEVICES to '0' (GPU indices [0]) for inference process 0
+[2023-12-05 09:52:19,359][3919663] Starting process rollout_proc26
+[2023-12-05 09:52:19,381][3919663] Starting process rollout_proc27
+[2023-12-05 09:52:19,432][3920098] Worker 5 uses CPU cores [5]
+[2023-12-05 09:52:19,477][3920102] Worker 14 uses CPU cores [14]
+[2023-12-05 09:52:19,481][3919663] Starting process rollout_proc28
+[2023-12-05 09:52:19,507][3919932] Num visible devices: 1
+[2023-12-05 09:52:19,530][3920092] Worker 13 uses CPU cores [13]
+[2023-12-05 09:52:19,537][3919663] Starting process rollout_proc29
+[2023-12-05 09:52:19,589][3920099] Worker 8 uses CPU cores [8]
+[2023-12-05 09:52:19,742][3919663] Starting process rollout_proc30
+[2023-12-05 09:52:19,798][3920060] Worker 12 uses CPU cores [12]
+[2023-12-05 09:52:20,118][3919932] RunningMeanStd input shape: (3, 72, 128)
+[2023-12-05 09:52:20,120][3919932] RunningMeanStd input shape: (1,)
+[2023-12-05 09:52:20,137][3919932] ConvEncoder: input_channels=3
+[2023-12-05 09:52:20,265][3919932] Conv encoder output size: 512
+[2023-12-05 09:52:20,266][3919932] Policy head output size: 512
+[2023-12-05 09:52:23,275][3919663] Starting process rollout_proc31
+[2023-12-05 09:52:23,312][3920982] Worker 16 uses CPU cores [16]
+[2023-12-05 09:52:23,400][3920981] Worker 15 uses CPU cores [15]
+[2023-12-05 09:52:23,435][3921108] Worker 18 uses CPU cores [18]
+[2023-12-05 09:52:23,470][3921014] Worker 17 uses CPU cores [17]
+[2023-12-05 09:52:23,487][3921158] Worker 19 uses CPU cores [19]
+[2023-12-05 09:52:23,513][3921543] Worker 28 uses CPU cores [28]
+[2023-12-05 09:52:23,531][3921168] Worker 20 uses CPU cores [20]
+[2023-12-05 09:52:23,537][3921875] Worker 30 uses CPU cores [30]
+[2023-12-05 09:52:23,540][3921492] Worker 27 uses CPU cores [27]
+[2023-12-05 09:52:23,590][3921298] Worker 22 uses CPU cores [22]
+[2023-12-05 09:52:23,610][3921204] Worker 21 uses CPU cores [21]
+[2023-12-05 09:52:23,629][3921677] Worker 29 uses CPU cores [29]
+[2023-12-05 09:52:23,640][3921300] Worker 24 uses CPU cores [24]
+[2023-12-05 09:52:23,655][3921299] Worker 23 uses CPU cores [23]
+[2023-12-05 09:52:23,686][3921350] Worker 25 uses CPU cores [25]
+[2023-12-05 09:52:23,687][3921450] Worker 26 uses CPU cores [26]
+[2023-12-05 09:52:25,508][3919663] Inference worker 0-0 is ready!
+[2023-12-05 09:52:25,508][3919663] All inference workers are ready! Signal rollout workers to start!
+[2023-12-05 09:52:25,509][3919663] Fps is (10 sec: nan, 60 sec: nan, 300 sec: nan). Total num frames: 0. Throughput: 0: nan. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-05 09:52:25,509][3919663] Fps is (10 sec: 0.0, 60 sec: 0.0, 300 sec: 0.0). Total num frames: 0. Throughput: 0: 0.0. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-05 09:52:25,512][3922501] Worker 31 uses CPU cores [31]
+[2023-12-05 09:52:25,908][3921875] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,922][3920060] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,925][3921108] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,925][3921158] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,925][3921492] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,933][3921543] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,934][3920982] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,934][3920092] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,936][3921298] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,949][3920102] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,948][3920059] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,949][3921204] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,950][3920095] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,951][3921168] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,953][3921450] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,953][3920097] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,958][3921014] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,958][3921677] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,960][3920099] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,961][3921299] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,962][3921300] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,974][3920981] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,993][3921350] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:25,993][3920094] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,003][3919934] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,015][3919931] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,018][3920101] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,028][3920098] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,048][3919933] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,059][3920093] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,117][3922501] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,139][3920096] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-05 09:52:26,472][3921543] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,473][3921298] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,473][3920059] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,476][3921875] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,476][3920060] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,477][3920097] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,477][3920098] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,479][3921492] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,479][3921158] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,486][3920099] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,658][3921450] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,670][3921108] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,672][3920101] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,672][3919933] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,674][3920102] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,683][3921298] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,687][3920092] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,691][3921300] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,698][3921543] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,855][3921014] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,857][3921677] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,860][3921875] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,871][3919934] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,887][3921108] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,894][3921350] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,895][3921168] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,902][3920101] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,917][3920093] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:26,921][3920102] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:26,955][3919663] Fps is (10 sec: 0.0, 60 sec: 0.0, 300 sec: 0.0). Total num frames: 0. Throughput: 0: 0.0. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-05 09:52:27,078][3921158] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,081][3920097] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,098][3921204] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,109][3920059] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,115][3921450] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,129][3920060] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,138][3920092] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,151][3920098] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,172][3920093] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,272][3921677] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,303][3919933] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,305][3919931] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,332][3920096] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,364][3921204] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,366][3920095] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,375][3920099] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,385][3921300] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,412][3921168] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,495][3921014] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,556][3921350] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,580][3920982] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,607][3921492] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,657][3920095] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,658][3919931] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,685][3920981] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,777][3921299] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,813][3920982] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,815][3920094] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:27,836][3920096] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,882][3920981] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:27,989][3922501] Decorrelating experience for 0 frames...
+[2023-12-05 09:52:28,004][3920094] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:28,011][3921299] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:28,185][3919934] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:28,192][3922501] Decorrelating experience for 32 frames...
+[2023-12-05 09:52:30,033][3919849] Signal inference workers to stop experience collection...
+[2023-12-05 09:52:30,080][3919932] InferenceWorker_p0-w0: stopping experience collection
+[2023-12-05 09:52:31,958][3919663] Fps is (10 sec: 0.0, 60 sec: 0.0, 300 sec: 0.0). Total num frames: 0. Throughput: 0: 308.9. Samples: 1992. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-05 09:52:31,958][3919663] Avg episode reward: [(0, '-0.707')]
+[2023-12-05 09:52:32,603][3919849] Signal inference workers to resume experience collection...
+[2023-12-05 09:52:32,604][3919932] InferenceWorker_p0-w0: resuming experience collection
+[2023-12-05 09:52:34,264][3919932] Updated weights for policy 0, policy_version 10 (0.0146)
+[2023-12-05 09:52:34,411][3919663] Heartbeat connected on Batcher_0
+[2023-12-05 09:52:34,414][3919663] Heartbeat connected on LearnerWorker_p0
+[2023-12-05 09:52:34,420][3919663] Heartbeat connected on RolloutWorker_w1
+[2023-12-05 09:52:34,422][3919663] Heartbeat connected on RolloutWorker_w0
+[2023-12-05 09:52:34,422][3919663] Heartbeat connected on RolloutWorker_w2
+[2023-12-05 09:52:34,423][3919663] Heartbeat connected on InferenceWorker_p0-w0
+[2023-12-05 09:52:34,424][3919663] Heartbeat connected on RolloutWorker_w3
+[2023-12-05 09:52:34,425][3919663] Heartbeat connected on RolloutWorker_w4
+[2023-12-05 09:52:34,427][3919663] Heartbeat connected on RolloutWorker_w5
+[2023-12-05 09:52:34,429][3919663] Heartbeat connected on RolloutWorker_w6
+[2023-12-05 09:52:34,430][3919663] Heartbeat connected on RolloutWorker_w7
+[2023-12-05 09:52:34,433][3919663] Heartbeat connected on RolloutWorker_w8
+[2023-12-05 09:52:34,435][3919663] Heartbeat connected on RolloutWorker_w10
+[2023-12-05 09:52:34,435][3919663] Heartbeat connected on RolloutWorker_w9
+[2023-12-05 09:52:34,492][3919663] Heartbeat connected on RolloutWorker_w11
+[2023-12-05 09:52:34,494][3919663] Heartbeat connected on RolloutWorker_w12
+[2023-12-05 09:52:34,496][3919663] Heartbeat connected on RolloutWorker_w13
+[2023-12-05 09:52:34,497][3919663] Heartbeat connected on RolloutWorker_w14
+[2023-12-05 09:52:34,499][3919663] Heartbeat connected on RolloutWorker_w15
+[2023-12-05 09:52:34,501][3919663] Heartbeat connected on RolloutWorker_w16
+[2023-12-05 09:52:34,502][3919663] Heartbeat connected on RolloutWorker_w17
+[2023-12-05 09:52:34,503][3919663] Heartbeat connected on RolloutWorker_w18
+[2023-12-05 09:52:34,504][3919663] Heartbeat connected on RolloutWorker_w19
+[2023-12-05 09:52:34,506][3919663] Heartbeat connected on RolloutWorker_w20
+[2023-12-05 09:52:34,508][3919663] Heartbeat connected on RolloutWorker_w21
+[2023-12-05 09:52:34,510][3919663] Heartbeat connected on RolloutWorker_w22
+[2023-12-05 09:52:34,511][3919663] Heartbeat connected on RolloutWorker_w23
+[2023-12-05 09:52:34,512][3919663] Heartbeat connected on RolloutWorker_w24
+[2023-12-05 09:52:34,514][3919663] Heartbeat connected on RolloutWorker_w25
+[2023-12-05 09:52:34,515][3919663] Heartbeat connected on RolloutWorker_w26
+[2023-12-05 09:52:34,521][3919663] Heartbeat connected on RolloutWorker_w27
+[2023-12-05 09:52:34,522][3919663] Heartbeat connected on RolloutWorker_w28
+[2023-12-05 09:52:34,523][3919663] Heartbeat connected on RolloutWorker_w29
+[2023-12-05 09:52:34,524][3919663] Heartbeat connected on RolloutWorker_w30
+[2023-12-05 09:52:34,525][3919663] Heartbeat connected on RolloutWorker_w31
+[2023-12-05 09:52:36,103][3919932] Updated weights for policy 0, policy_version 20 (0.0012)
+[2023-12-05 09:52:36,954][3919663] Fps is (10 sec: 9830.7, 60 sec: 8588.6, 300 sec: 8588.6). Total num frames: 98304. Throughput: 0: 1549.8. Samples: 17739. Policy #0 lag: (min: 0.0, avg: 1.4, max: 3.0)
+[2023-12-05 09:52:36,955][3919663] Avg episode reward: [(0, '-0.294')]
+[2023-12-05 09:52:37,902][3919932] Updated weights for policy 0, policy_version 30 (0.0010)
+[2023-12-05 09:52:39,654][3919932] Updated weights for policy 0, policy_version 40 (0.0009)
+[2023-12-05 09:52:41,443][3919932] Updated weights for policy 0, policy_version 50 (0.0009)
+[2023-12-05 09:52:41,955][3919663] Fps is (10 sec: 21305.2, 60 sec: 12951.1, 300 sec: 12951.1). Total num frames: 212992. Throughput: 0: 3186.0. Samples: 52396. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:52:41,955][3919663] Avg episode reward: [(0, '-0.337')]
+[2023-12-05 09:52:41,967][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000052_212992.pth...
+[2023-12-05 09:52:42,101][3919849] Saving new best policy, reward=-0.337!
+[2023-12-05 09:52:43,425][3919932] Updated weights for policy 0, policy_version 60 (0.0011)
+[2023-12-05 09:52:45,366][3919932] Updated weights for policy 0, policy_version 70 (0.0011)
+[2023-12-05 09:52:46,955][3919663] Fps is (10 sec: 22118.4, 60 sec: 14897.4, 300 sec: 14897.4). Total num frames: 319488. Throughput: 0: 3174.0. Samples: 68070. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:52:46,955][3919663] Avg episode reward: [(0, '-0.152')]
+[2023-12-05 09:52:46,955][3919849] Saving new best policy, reward=-0.152!
+[2023-12-05 09:52:47,343][3919932] Updated weights for policy 0, policy_version 80 (0.0011)
+[2023-12-05 09:52:49,366][3919932] Updated weights for policy 0, policy_version 90 (0.0010)
+[2023-12-05 09:52:51,325][3919932] Updated weights for policy 0, policy_version 100 (0.0011)
+[2023-12-05 09:52:51,955][3919663] Fps is (10 sec: 20889.6, 60 sec: 15952.8, 300 sec: 15952.8). Total num frames: 421888. Throughput: 0: 3745.1. Samples: 99043. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:52:51,955][3919663] Avg episode reward: [(0, '-0.114')]
+[2023-12-05 09:52:51,955][3919849] Saving new best policy, reward=-0.114!
+[2023-12-05 09:52:53,273][3919932] Updated weights for policy 0, policy_version 110 (0.0010)
+[2023-12-05 09:52:55,317][3919932] Updated weights for policy 0, policy_version 120 (0.0011)
+[2023-12-05 09:52:56,955][3919663] Fps is (10 sec: 20479.7, 60 sec: 16672.7, 300 sec: 16672.7). Total num frames: 524288. Throughput: 0: 4130.2. Samples: 129878. Policy #0 lag: (min: 0.0, avg: 1.0, max: 3.0)
+[2023-12-05 09:52:56,955][3919663] Avg episode reward: [(0, '-0.438')]
+[2023-12-05 09:52:57,295][3919932] Updated weights for policy 0, policy_version 130 (0.0010)
+[2023-12-05 09:52:59,322][3919932] Updated weights for policy 0, policy_version 140 (0.0010)
+[2023-12-05 09:53:01,293][3919932] Updated weights for policy 0, policy_version 150 (0.0011)
+[2023-12-05 09:53:01,955][3919663] Fps is (10 sec: 20480.1, 60 sec: 17195.0, 300 sec: 17195.0). Total num frames: 626688. Throughput: 0: 3987.1. Samples: 145314. Policy #0 lag: (min: 0.0, avg: 1.2, max: 2.0)
+[2023-12-05 09:53:01,955][3919663] Avg episode reward: [(0, '-0.305')]
+[2023-12-05 09:53:03,294][3919932] Updated weights for policy 0, policy_version 160 (0.0009)
+[2023-12-05 09:53:05,278][3919932] Updated weights for policy 0, policy_version 170 (0.0011)
+[2023-12-05 09:53:06,954][3919663] Fps is (10 sec: 20480.5, 60 sec: 17591.4, 300 sec: 17591.4). Total num frames: 729088. Throughput: 0: 4253.5. Samples: 176289. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:53:06,955][3919663] Avg episode reward: [(0, '-0.105')]
+[2023-12-05 09:53:06,989][3919849] Saving new best policy, reward=-0.105!
+[2023-12-05 09:53:07,186][3919932] Updated weights for policy 0, policy_version 180 (0.0012)
+[2023-12-05 09:53:09,221][3919932] Updated weights for policy 0, policy_version 190 (0.0012)
+[2023-12-05 09:53:11,173][3919932] Updated weights for policy 0, policy_version 200 (0.0010)
+[2023-12-05 09:53:11,954][3919663] Fps is (10 sec: 20890.2, 60 sec: 17990.6, 300 sec: 17990.6). Total num frames: 835584. Throughput: 0: 4604.8. Samples: 207216. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:53:11,955][3919663] Avg episode reward: [(0, '-0.287')]
+[2023-12-05 09:53:11,955][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000204_835584.pth...
+[2023-12-05 09:53:13,133][3919932] Updated weights for policy 0, policy_version 210 (0.0012)
+[2023-12-05 09:53:15,125][3919932] Updated weights for policy 0, policy_version 220 (0.0009)
+[2023-12-05 09:53:16,955][3919663] Fps is (10 sec: 20889.1, 60 sec: 18232.4, 300 sec: 18232.4). Total num frames: 937984. Throughput: 0: 4907.1. Samples: 222797. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:53:16,955][3919663] Avg episode reward: [(0, '-0.233')]
+[2023-12-05 09:53:17,094][3919932] Updated weights for policy 0, policy_version 230 (0.0011)
+[2023-12-05 09:53:19,070][3919932] Updated weights for policy 0, policy_version 240 (0.0011)
+[2023-12-05 09:53:21,110][3919932] Updated weights for policy 0, policy_version 250 (0.0013)
+[2023-12-05 09:53:21,955][3919663] Fps is (10 sec: 20479.4, 60 sec: 18431.7, 300 sec: 18431.5). Total num frames: 1040384. Throughput: 0: 5243.7. Samples: 253705. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:53:21,955][3919663] Avg episode reward: [(0, '-0.338')]
+[2023-12-05 09:53:23,098][3919932] Updated weights for policy 0, policy_version 260 (0.0011)
+[2023-12-05 09:53:25,066][3919932] Updated weights for policy 0, policy_version 270 (0.0010)
+[2023-12-05 09:53:26,955][3919663] Fps is (10 sec: 20480.2, 60 sec: 19046.5, 300 sec: 18598.2). Total num frames: 1142784. Throughput: 0: 5165.6. Samples: 284847. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:53:26,955][3919663] Avg episode reward: [(0, '-0.119')]
+[2023-12-05 09:53:27,036][3919932] Updated weights for policy 0, policy_version 280 (0.0012)
+[2023-12-05 09:53:28,986][3919932] Updated weights for policy 0, policy_version 290 (0.0011)
+[2023-12-05 09:53:31,003][3919932] Updated weights for policy 0, policy_version 300 (0.0012)
+[2023-12-05 09:53:31,955][3919663] Fps is (10 sec: 20478.6, 60 sec: 20753.8, 300 sec: 18739.6). Total num frames: 1245184. Throughput: 0: 5164.5. Samples: 300477. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:53:31,956][3919663] Avg episode reward: [(0, '-0.390')]
+[2023-12-05 09:53:32,992][3919932] Updated weights for policy 0, policy_version 310 (0.0011)
+[2023-12-05 09:53:35,015][3919932] Updated weights for policy 0, policy_version 320 (0.0011)
+[2023-12-05 09:53:36,955][3919663] Fps is (10 sec: 20479.4, 60 sec: 20821.2, 300 sec: 18861.5). Total num frames: 1347584. Throughput: 0: 5157.6. Samples: 331138. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:53:36,955][3919663] Avg episode reward: [(0, '-0.207')]
+[2023-12-05 09:53:36,991][3919932] Updated weights for policy 0, policy_version 330 (0.0010)
+[2023-12-05 09:53:39,005][3919932] Updated weights for policy 0, policy_version 340 (0.0009)
+[2023-12-05 09:53:41,056][3919932] Updated weights for policy 0, policy_version 350 (0.0011)
+[2023-12-05 09:53:41,955][3919663] Fps is (10 sec: 20481.0, 60 sec: 20616.5, 300 sec: 18967.4). Total num frames: 1449984. Throughput: 0: 5150.0. Samples: 361628. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:53:41,955][3919663] Avg episode reward: [(0, '0.012')]
+[2023-12-05 09:53:41,956][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000354_1449984.pth...
+[2023-12-05 09:53:42,066][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000052_212992.pth
+[2023-12-05 09:53:42,070][3919849] Saving new best policy, reward=0.012!
+[2023-12-05 09:53:43,187][3919932] Updated weights for policy 0, policy_version 360 (0.0011)
+[2023-12-05 09:53:45,188][3919932] Updated weights for policy 0, policy_version 370 (0.0011)
+[2023-12-05 09:53:46,954][3919663] Fps is (10 sec: 20071.2, 60 sec: 20480.0, 300 sec: 19010.0). Total num frames: 1548288. Throughput: 0: 5130.3. Samples: 376178. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:53:46,955][3919663] Avg episode reward: [(0, '-0.311')]
+[2023-12-05 09:53:47,224][3919932] Updated weights for policy 0, policy_version 380 (0.0010)
+[2023-12-05 09:53:49,249][3919932] Updated weights for policy 0, policy_version 390 (0.0009)
+[2023-12-05 09:53:51,327][3919932] Updated weights for policy 0, policy_version 400 (0.0010)
+[2023-12-05 09:53:51,955][3919663] Fps is (10 sec: 20070.9, 60 sec: 20480.0, 300 sec: 19095.1). Total num frames: 1650688. Throughput: 0: 5113.7. Samples: 406406. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:53:51,955][3919663] Avg episode reward: [(0, '-0.383')]
+[2023-12-05 09:53:53,373][3919932] Updated weights for policy 0, policy_version 410 (0.0010)
+[2023-12-05 09:53:55,428][3919932] Updated weights for policy 0, policy_version 420 (0.0008)
+[2023-12-05 09:53:56,954][3919663] Fps is (10 sec: 20070.6, 60 sec: 20411.8, 300 sec: 19126.0). Total num frames: 1748992. Throughput: 0: 5092.5. Samples: 436381. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:53:56,955][3919663] Avg episode reward: [(0, '-0.165')]
+[2023-12-05 09:53:57,452][3919932] Updated weights for policy 0, policy_version 430 (0.0011)
+[2023-12-05 09:53:59,520][3919932] Updated weights for policy 0, policy_version 440 (0.0010)
+[2023-12-05 09:54:01,582][3919932] Updated weights for policy 0, policy_version 450 (0.0010)
+[2023-12-05 09:54:01,955][3919663] Fps is (10 sec: 19660.7, 60 sec: 20343.5, 300 sec: 19153.7). Total num frames: 1847296. Throughput: 0: 5082.6. Samples: 451512. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:01,955][3919663] Avg episode reward: [(0, '0.027')]
+[2023-12-05 09:54:01,976][3919849] Saving new best policy, reward=0.027!
+[2023-12-05 09:54:03,668][3919932] Updated weights for policy 0, policy_version 460 (0.0011)
+[2023-12-05 09:54:05,710][3919932] Updated weights for policy 0, policy_version 470 (0.0010)
+[2023-12-05 09:54:06,955][3919663] Fps is (10 sec: 20069.8, 60 sec: 20343.4, 300 sec: 19219.1). Total num frames: 1949696. Throughput: 0: 5058.0. Samples: 481316. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:06,955][3919663] Avg episode reward: [(0, '-0.122')]
+[2023-12-05 09:54:07,660][3919932] Updated weights for policy 0, policy_version 480 (0.0009)
+[2023-12-05 09:54:09,623][3919932] Updated weights for policy 0, policy_version 490 (0.0012)
+[2023-12-05 09:54:11,567][3919932] Updated weights for policy 0, policy_version 500 (0.0009)
+[2023-12-05 09:54:11,955][3919663] Fps is (10 sec: 20479.9, 60 sec: 20275.1, 300 sec: 19278.3). Total num frames: 2052096. Throughput: 0: 5064.1. Samples: 512733. Policy #0 lag: (min: 0.0, avg: 1.0, max: 2.0)
+[2023-12-05 09:54:11,955][3919663] Avg episode reward: [(0, '-0.128')]
+[2023-12-05 09:54:11,958][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000502_2056192.pth...
+[2023-12-05 09:54:12,015][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000204_835584.pth
+[2023-12-05 09:54:13,577][3919932] Updated weights for policy 0, policy_version 510 (0.0010)
+[2023-12-05 09:54:15,598][3919932] Updated weights for policy 0, policy_version 520 (0.0010)
+[2023-12-05 09:54:16,955][3919663] Fps is (10 sec: 20889.2, 60 sec: 20343.4, 300 sec: 19368.9). Total num frames: 2158592. Throughput: 0: 5053.8. Samples: 527897. Policy #0 lag: (min: 0.0, avg: 1.1, max: 2.0)
+[2023-12-05 09:54:16,955][3919663] Avg episode reward: [(0, '-0.402')]
+[2023-12-05 09:54:17,562][3919932] Updated weights for policy 0, policy_version 530 (0.0010)
+[2023-12-05 09:54:19,543][3919932] Updated weights for policy 0, policy_version 540 (0.0011)
+[2023-12-05 09:54:21,524][3919932] Updated weights for policy 0, policy_version 550 (0.0010)
+[2023-12-05 09:54:21,955][3919663] Fps is (10 sec: 20889.6, 60 sec: 20343.4, 300 sec: 19416.7). Total num frames: 2260992. Throughput: 0: 5056.0. Samples: 558656. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:54:21,955][3919663] Avg episode reward: [(0, '-0.341')]
+[2023-12-05 09:54:23,634][3919932] Updated weights for policy 0, policy_version 560 (0.0010)
+[2023-12-05 09:54:25,627][3919932] Updated weights for policy 0, policy_version 570 (0.0011)
+[2023-12-05 09:54:26,954][3919663] Fps is (10 sec: 20071.6, 60 sec: 20275.3, 300 sec: 19426.8). Total num frames: 2359296. Throughput: 0: 5050.4. Samples: 588892. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:26,955][3919663] Avg episode reward: [(0, '-0.134')]
+[2023-12-05 09:54:27,631][3919932] Updated weights for policy 0, policy_version 580 (0.0009)
+[2023-12-05 09:54:29,673][3919932] Updated weights for policy 0, policy_version 590 (0.0011)
+[2023-12-05 09:54:31,619][3919932] Updated weights for policy 0, policy_version 600 (0.0009)
+[2023-12-05 09:54:31,954][3919663] Fps is (10 sec: 20070.8, 60 sec: 20275.5, 300 sec: 19468.4). Total num frames: 2461696. Throughput: 0: 5069.5. Samples: 604305. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:31,955][3919663] Avg episode reward: [(0, '-0.325')]
+[2023-12-05 09:54:33,564][3919932] Updated weights for policy 0, policy_version 610 (0.0010)
+[2023-12-05 09:54:35,583][3919932] Updated weights for policy 0, policy_version 620 (0.0011)
+[2023-12-05 09:54:36,955][3919663] Fps is (10 sec: 20479.0, 60 sec: 20275.2, 300 sec: 19506.8). Total num frames: 2564096. Throughput: 0: 5087.3. Samples: 635337. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:36,955][3919663] Avg episode reward: [(0, '-0.458')]
+[2023-12-05 09:54:37,773][3919932] Updated weights for policy 0, policy_version 630 (0.0010)
+[2023-12-05 09:54:40,276][3919932] Updated weights for policy 0, policy_version 640 (0.0014)
+[2023-12-05 09:54:41,954][3919663] Fps is (10 sec: 19251.6, 60 sec: 20070.6, 300 sec: 19452.5). Total num frames: 2654208. Throughput: 0: 5021.6. Samples: 662351. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:41,955][3919663] Avg episode reward: [(0, '-0.238')]
+[2023-12-05 09:54:41,955][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000648_2654208.pth...
+[2023-12-05 09:54:42,000][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000354_1449984.pth
+[2023-12-05 09:54:42,381][3919932] Updated weights for policy 0, policy_version 650 (0.0010)
+[2023-12-05 09:54:44,501][3919932] Updated weights for policy 0, policy_version 660 (0.0012)
+[2023-12-05 09:54:46,488][3919932] Updated weights for policy 0, policy_version 670 (0.0011)
+[2023-12-05 09:54:46,955][3919663] Fps is (10 sec: 18842.0, 60 sec: 20070.4, 300 sec: 19459.8). Total num frames: 2752512. Throughput: 0: 5009.0. Samples: 676918. Policy #0 lag: (min: 0.0, avg: 1.2, max: 2.0)
+[2023-12-05 09:54:46,955][3919663] Avg episode reward: [(0, '-0.114')]
+[2023-12-05 09:54:48,484][3919932] Updated weights for policy 0, policy_version 680 (0.0010)
+[2023-12-05 09:54:50,572][3919932] Updated weights for policy 0, policy_version 690 (0.0010)
+[2023-12-05 09:54:51,955][3919663] Fps is (10 sec: 19660.1, 60 sec: 20002.1, 300 sec: 19466.7). Total num frames: 2850816. Throughput: 0: 5018.7. Samples: 707157. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:51,955][3919663] Avg episode reward: [(0, '-0.270')]
+[2023-12-05 09:54:52,587][3919932] Updated weights for policy 0, policy_version 700 (0.0010)
+[2023-12-05 09:54:54,646][3919932] Updated weights for policy 0, policy_version 710 (0.0009)
+[2023-12-05 09:54:56,651][3919932] Updated weights for policy 0, policy_version 720 (0.0009)
+[2023-12-05 09:54:56,955][3919663] Fps is (10 sec: 20070.2, 60 sec: 20070.3, 300 sec: 19500.1). Total num frames: 2953216. Throughput: 0: 4993.8. Samples: 737452. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:54:56,955][3919663] Avg episode reward: [(0, '-0.266')]
+[2023-12-05 09:54:58,640][3919932] Updated weights for policy 0, policy_version 730 (0.0010)
+[2023-12-05 09:55:00,619][3919932] Updated weights for policy 0, policy_version 740 (0.0009)
+[2023-12-05 09:55:01,955][3919663] Fps is (10 sec: 20480.0, 60 sec: 20138.7, 300 sec: 19531.5). Total num frames: 3055616. Throughput: 0: 4999.0. Samples: 752851. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:01,955][3919663] Avg episode reward: [(0, '-0.126')]
+[2023-12-05 09:55:02,605][3919932] Updated weights for policy 0, policy_version 750 (0.0011)
+[2023-12-05 09:55:04,646][3919932] Updated weights for policy 0, policy_version 760 (0.0011)
+[2023-12-05 09:55:06,686][3919932] Updated weights for policy 0, policy_version 770 (0.0009)
+[2023-12-05 09:55:06,955][3919663] Fps is (10 sec: 20479.6, 60 sec: 20138.6, 300 sec: 19560.8). Total num frames: 3158016. Throughput: 0: 4993.0. Samples: 783340. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:55:06,955][3919663] Avg episode reward: [(0, '-0.236')]
+[2023-12-05 09:55:08,721][3919932] Updated weights for policy 0, policy_version 780 (0.0010)
+[2023-12-05 09:55:10,688][3919932] Updated weights for policy 0, policy_version 790 (0.0011)
+[2023-12-05 09:55:11,955][3919663] Fps is (10 sec: 20479.8, 60 sec: 20138.6, 300 sec: 19588.4). Total num frames: 3260416. Throughput: 0: 4999.1. Samples: 813855. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:11,955][3919663] Avg episode reward: [(0, '-0.251')]
+[2023-12-05 09:55:11,956][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000796_3260416.pth...
+[2023-12-05 09:55:11,999][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000502_2056192.pth
+[2023-12-05 09:55:12,755][3919932] Updated weights for policy 0, policy_version 800 (0.0011)
+[2023-12-05 09:55:14,782][3919932] Updated weights for policy 0, policy_version 810 (0.0009)
+[2023-12-05 09:55:16,785][3919932] Updated weights for policy 0, policy_version 820 (0.0010)
+[2023-12-05 09:55:16,955][3919663] Fps is (10 sec: 20070.9, 60 sec: 20002.2, 300 sec: 19590.6). Total num frames: 3358720. Throughput: 0: 4989.9. Samples: 828850. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:16,955][3919663] Avg episode reward: [(0, '-0.290')]
+[2023-12-05 09:55:18,833][3919932] Updated weights for policy 0, policy_version 830 (0.0011)
+[2023-12-05 09:55:20,918][3919932] Updated weights for policy 0, policy_version 840 (0.0009)
+[2023-12-05 09:55:21,955][3919663] Fps is (10 sec: 20070.9, 60 sec: 20002.2, 300 sec: 19615.8). Total num frames: 3461120. Throughput: 0: 4977.1. Samples: 859304. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:21,955][3919663] Avg episode reward: [(0, '-0.394')]
+[2023-12-05 09:55:22,881][3919932] Updated weights for policy 0, policy_version 850 (0.0010)
+[2023-12-05 09:55:24,848][3919932] Updated weights for policy 0, policy_version 860 (0.0010)
+[2023-12-05 09:55:26,794][3919932] Updated weights for policy 0, policy_version 870 (0.0009)
+[2023-12-05 09:55:26,955][3919663] Fps is (10 sec: 20480.0, 60 sec: 20070.3, 300 sec: 19639.6). Total num frames: 3563520. Throughput: 0: 5070.5. Samples: 890524. Policy #0 lag: (min: 0.0, avg: 1.4, max: 3.0)
+[2023-12-05 09:55:26,955][3919663] Avg episode reward: [(0, '-0.227')]
+[2023-12-05 09:55:28,811][3919932] Updated weights for policy 0, policy_version 880 (0.0014)
+[2023-12-05 09:55:30,777][3919932] Updated weights for policy 0, policy_version 890 (0.0010)
+[2023-12-05 09:55:31,955][3919663] Fps is (10 sec: 20479.4, 60 sec: 20070.3, 300 sec: 19662.1). Total num frames: 3665920. Throughput: 0: 5087.8. Samples: 905870. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:31,955][3919663] Avg episode reward: [(0, '-0.074')]
+[2023-12-05 09:55:32,751][3919932] Updated weights for policy 0, policy_version 900 (0.0010)
+[2023-12-05 09:55:34,800][3919932] Updated weights for policy 0, policy_version 910 (0.0012)
+[2023-12-05 09:55:36,795][3919932] Updated weights for policy 0, policy_version 920 (0.0010)
+[2023-12-05 09:55:36,955][3919663] Fps is (10 sec: 20480.0, 60 sec: 20070.5, 300 sec: 19683.5). Total num frames: 3768320. Throughput: 0: 5094.0. Samples: 936386. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:55:36,955][3919663] Avg episode reward: [(0, '-0.127')]
+[2023-12-05 09:55:38,780][3919932] Updated weights for policy 0, policy_version 930 (0.0009)
+[2023-12-05 09:55:40,807][3919932] Updated weights for policy 0, policy_version 940 (0.0013)
+[2023-12-05 09:55:41,955][3919663] Fps is (10 sec: 20480.2, 60 sec: 20275.0, 300 sec: 19703.7). Total num frames: 3870720. Throughput: 0: 5102.7. Samples: 967075. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:55:41,955][3919663] Avg episode reward: [(0, '-0.292')]
+[2023-12-05 09:55:41,960][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000946_3874816.pth...
+[2023-12-05 09:55:42,008][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000648_2654208.pth
+[2023-12-05 09:55:42,755][3919932] Updated weights for policy 0, policy_version 950 (0.0010)
+[2023-12-05 09:55:44,740][3919932] Updated weights for policy 0, policy_version 960 (0.0010)
+[2023-12-05 09:55:46,658][3919932] Updated weights for policy 0, policy_version 970 (0.0009)
+[2023-12-05 09:55:46,955][3919663] Fps is (10 sec: 20889.5, 60 sec: 20411.7, 300 sec: 19743.3). Total num frames: 3977216. Throughput: 0: 5104.2. Samples: 982542. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:55:46,955][3919663] Avg episode reward: [(0, '-0.213')]
+[2023-12-05 09:55:48,662][3919932] Updated weights for policy 0, policy_version 980 (0.0010)
+[2023-12-05 09:55:50,607][3919932] Updated weights for policy 0, policy_version 990 (0.0010)
+[2023-12-05 09:55:51,955][3919663] Fps is (10 sec: 20889.6, 60 sec: 20480.0, 300 sec: 19761.2). Total num frames: 4079616. Throughput: 0: 5125.8. Samples: 1014002. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:55:51,955][3919663] Avg episode reward: [(0, '-0.436')]
+[2023-12-05 09:55:52,630][3919932] Updated weights for policy 0, policy_version 1000 (0.0010)
+[2023-12-05 09:55:54,667][3919932] Updated weights for policy 0, policy_version 1010 (0.0009)
+[2023-12-05 09:55:56,677][3919932] Updated weights for policy 0, policy_version 1020 (0.0009)
+[2023-12-05 09:55:56,955][3919663] Fps is (10 sec: 20480.1, 60 sec: 20480.0, 300 sec: 19778.2). Total num frames: 4182016. Throughput: 0: 5127.3. Samples: 1044583. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:55:56,955][3919663] Avg episode reward: [(0, '-0.140')]
+[2023-12-05 09:55:58,655][3919932] Updated weights for policy 0, policy_version 1030 (0.0010)
+[2023-12-05 09:56:00,727][3919932] Updated weights for policy 0, policy_version 1040 (0.0012)
+[2023-12-05 09:56:01,955][3919663] Fps is (10 sec: 20480.0, 60 sec: 20480.0, 300 sec: 19794.4). Total num frames: 4284416. Throughput: 0: 5133.6. Samples: 1059862. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:01,955][3919663] Avg episode reward: [(0, '-0.198')]
+[2023-12-05 09:56:02,746][3919932] Updated weights for policy 0, policy_version 1050 (0.0011)
+[2023-12-05 09:56:04,758][3919932] Updated weights for policy 0, policy_version 1060 (0.0011)
+[2023-12-05 09:56:06,783][3919932] Updated weights for policy 0, policy_version 1070 (0.0011)
+[2023-12-05 09:56:06,954][3919663] Fps is (10 sec: 20480.8, 60 sec: 20480.2, 300 sec: 19809.9). Total num frames: 4386816. Throughput: 0: 5128.1. Samples: 1090067. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:06,955][3919663] Avg episode reward: [(0, '-0.225')]
+[2023-12-05 09:56:08,759][3919932] Updated weights for policy 0, policy_version 1080 (0.0012)
+[2023-12-05 09:56:10,752][3919932] Updated weights for policy 0, policy_version 1090 (0.0009)
+[2023-12-05 09:56:11,955][3919663] Fps is (10 sec: 20070.7, 60 sec: 20411.8, 300 sec: 19806.6). Total num frames: 4485120. Throughput: 0: 5117.3. Samples: 1120800. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:56:11,955][3919663] Avg episode reward: [(0, '-0.128')]
+[2023-12-05 09:56:11,991][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001096_4489216.pth...
+[2023-12-05 09:56:12,039][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000796_3260416.pth
+[2023-12-05 09:56:12,818][3919932] Updated weights for policy 0, policy_version 1100 (0.0011)
+[2023-12-05 09:56:14,866][3919932] Updated weights for policy 0, policy_version 1110 (0.0010)
+[2023-12-05 09:56:16,865][3919932] Updated weights for policy 0, policy_version 1120 (0.0011)
+[2023-12-05 09:56:16,955][3919663] Fps is (10 sec: 20069.3, 60 sec: 20479.9, 300 sec: 19821.1). Total num frames: 4587520. Throughput: 0: 5109.4. Samples: 1135793. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:16,955][3919663] Avg episode reward: [(0, '-0.085')]
+[2023-12-05 09:56:18,865][3919932] Updated weights for policy 0, policy_version 1130 (0.0009)
+[2023-12-05 09:56:20,896][3919932] Updated weights for policy 0, policy_version 1140 (0.0010)
+[2023-12-05 09:56:21,955][3919663] Fps is (10 sec: 20480.0, 60 sec: 20480.0, 300 sec: 19835.1). Total num frames: 4689920. Throughput: 0: 5108.8. Samples: 1166283. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:21,955][3919663] Avg episode reward: [(0, '-0.196')]
+[2023-12-05 09:56:22,955][3919932] Updated weights for policy 0, policy_version 1150 (0.0011)
+[2023-12-05 09:56:24,992][3919932] Updated weights for policy 0, policy_version 1160 (0.0011)
+[2023-12-05 09:56:26,955][3919663] Fps is (10 sec: 20070.4, 60 sec: 20411.7, 300 sec: 19831.4). Total num frames: 4788224. Throughput: 0: 5096.0. Samples: 1196394. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:56:26,955][3919663] Avg episode reward: [(0, '-0.097')]
+[2023-12-05 09:56:26,981][3919932] Updated weights for policy 0, policy_version 1170 (0.0010)
+[2023-12-05 09:56:29,021][3919932] Updated weights for policy 0, policy_version 1180 (0.0010)
+[2023-12-05 09:56:31,036][3919932] Updated weights for policy 0, policy_version 1190 (0.0009)
+[2023-12-05 09:56:31,954][3919663] Fps is (10 sec: 20070.6, 60 sec: 20411.8, 300 sec: 19844.6). Total num frames: 4890624. Throughput: 0: 5093.2. Samples: 1211734. Policy #0 lag: (min: 0.0, avg: 1.3, max: 3.0)
+[2023-12-05 09:56:31,955][3919663] Avg episode reward: [(0, '-0.228')]
+[2023-12-05 09:56:33,021][3919932] Updated weights for policy 0, policy_version 1200 (0.0012)
+[2023-12-05 09:56:35,074][3919932] Updated weights for policy 0, policy_version 1210 (0.0013)
+[2023-12-05 09:56:36,955][3919663] Fps is (10 sec: 20069.9, 60 sec: 20343.3, 300 sec: 19840.9). Total num frames: 4988928. Throughput: 0: 5070.6. Samples: 1242180. Policy #0 lag: (min: 0.0, avg: 1.1, max: 3.0)
+[2023-12-05 09:56:36,955][3919663] Avg episode reward: [(0, '-0.171')]
+[2023-12-05 09:56:37,164][3919932] Updated weights for policy 0, policy_version 1220 (0.0011)
+[2023-12-05 09:56:39,263][3919932] Updated weights for policy 0, policy_version 1230 (0.0010)
+[2023-12-05 09:56:41,313][3919932] Updated weights for policy 0, policy_version 1240 (0.0010)
+[2023-12-05 09:56:41,955][3919663] Fps is (10 sec: 20070.2, 60 sec: 20343.5, 300 sec: 19853.4). Total num frames: 5091328. Throughput: 0: 5047.7. Samples: 1271729. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:41,955][3919663] Avg episode reward: [(0, '-0.073')]
+[2023-12-05 09:56:41,956][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001243_5091328.pth...
+[2023-12-05 09:56:42,017][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000000946_3874816.pth
+[2023-12-05 09:56:43,393][3919932] Updated weights for policy 0, policy_version 1250 (0.0011)
+[2023-12-05 09:56:45,408][3919932] Updated weights for policy 0, policy_version 1260 (0.0009)
+[2023-12-05 09:56:46,955][3919663] Fps is (10 sec: 20070.8, 60 sec: 20206.9, 300 sec: 19849.7). Total num frames: 5189632. Throughput: 0: 5039.5. Samples: 1286638. Policy #0 lag: (min: 0.0, avg: 1.2, max: 3.0)
+[2023-12-05 09:56:46,955][3919663] Avg episode reward: [(0, '0.059')]
+[2023-12-05 09:56:46,956][3919849] Saving new best policy, reward=0.059!
+[2023-12-05 09:56:47,436][3919932] Updated weights for policy 0, policy_version 1270 (0.0010)
+[2023-12-05 09:56:47,723][3919663] Keyboard interrupt detected in the event loop EvtLoop [Runner_EvtLoop, process=main process 3919663], exiting...
+[2023-12-05 09:56:47,724][3919663] Runner profile tree view:
+main_loop: 273.2015
+[2023-12-05 09:56:47,724][3919663] Collected {0: 5206016}, FPS: 19055.6
+[2023-12-05 09:56:47,724][3919849] Stopping Batcher_0...
+[2023-12-05 09:56:47,725][3919849] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001271_5206016.pth...
+[2023-12-05 09:56:47,722][3921677] EvtLoop [rollout_proc29_evt_loop, process=rollout_proc29] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance29'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,713][3921300] EvtLoop [rollout_proc24_evt_loop, process=rollout_proc24] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance24'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,725][3920092] EvtLoop [rollout_proc13_evt_loop, process=rollout_proc13] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance13'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,719][3920094] EvtLoop [rollout_proc7_evt_loop, process=rollout_proc7] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance7'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,720][3919933] EvtLoop [rollout_proc1_evt_loop, process=rollout_proc1] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance1'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,714][3921298] EvtLoop [rollout_proc22_evt_loop, process=rollout_proc22] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance22'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,713][3920095] EvtLoop [rollout_proc9_evt_loop, process=rollout_proc9] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance9'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,720][3921204] EvtLoop [rollout_proc21_evt_loop, process=rollout_proc21] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance21'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,713][3921014] EvtLoop [rollout_proc17_evt_loop, process=rollout_proc17] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance17'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,713][3920059] EvtLoop [rollout_proc10_evt_loop, process=rollout_proc10] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance10'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,714][3919931] EvtLoop [rollout_proc0_evt_loop, process=rollout_proc0] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance0'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,714][3920981] EvtLoop [rollout_proc15_evt_loop, process=rollout_proc15] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance15'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,714][3919934] EvtLoop [rollout_proc2_evt_loop, process=rollout_proc2] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance2'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,719][3921450] EvtLoop [rollout_proc26_evt_loop, process=rollout_proc26] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance26'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,717][3920060] EvtLoop [rollout_proc12_evt_loop, process=rollout_proc12] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance12'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,723][3921875] EvtLoop [rollout_proc30_evt_loop, process=rollout_proc30] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance30'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,713][3921350] EvtLoop [rollout_proc25_evt_loop, process=rollout_proc25] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance25'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,722][3921492] EvtLoop [rollout_proc27_evt_loop, process=rollout_proc27] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance27'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,727][3921300] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc24_evt_loop
+[2023-12-05 09:56:47,727][3921677] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc29_evt_loop
+[2023-12-05 09:56:47,727][3920092] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc13_evt_loop
+[2023-12-05 09:56:47,726][3921299] EvtLoop [rollout_proc23_evt_loop, process=rollout_proc23] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance23'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,726][3921108] EvtLoop [rollout_proc18_evt_loop, process=rollout_proc18] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance18'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,728][3919933] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc1_evt_loop
+[2023-12-05 09:56:47,728][3920094] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc7_evt_loop
+[2023-12-05 09:56:47,728][3920095] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc9_evt_loop
+[2023-12-05 09:56:47,728][3921298] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc22_evt_loop
+[2023-12-05 09:56:47,728][3921014] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc17_evt_loop
+[2023-12-05 09:56:47,728][3920059] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc10_evt_loop
+[2023-12-05 09:56:47,728][3921204] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc21_evt_loop
+[2023-12-05 09:56:47,728][3921450] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc26_evt_loop
+[2023-12-05 09:56:47,728][3920060] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc12_evt_loop
+[2023-12-05 09:56:47,728][3920981] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc15_evt_loop
+[2023-12-05 09:56:47,728][3919931] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc0_evt_loop
+[2023-12-05 09:56:47,728][3921875] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc30_evt_loop
+[2023-12-05 09:56:47,728][3919934] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc2_evt_loop
+[2023-12-05 09:56:47,721][3922501] EvtLoop [rollout_proc31_evt_loop, process=rollout_proc31] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance31'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,728][3921350] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc25_evt_loop
+[2023-12-05 09:56:47,713][3920096] EvtLoop [rollout_proc3_evt_loop, process=rollout_proc3] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance3'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,728][3921492] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc27_evt_loop
+[2023-12-05 09:56:47,729][3921108] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc18_evt_loop
+[2023-12-05 09:56:47,729][3921299] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc23_evt_loop
+[2023-12-05 09:56:47,726][3919849] Loop batcher_evt_loop terminating...
+[2023-12-05 09:56:47,714][3921168] EvtLoop [rollout_proc20_evt_loop, process=rollout_proc20] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance20'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,714][3921543] EvtLoop [rollout_proc28_evt_loop, process=rollout_proc28] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance28'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,739][3921543] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc28_evt_loop
+[2023-12-05 09:56:47,729][3922501] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc31_evt_loop
+[2023-12-05 09:56:47,729][3920096] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc3_evt_loop
+[2023-12-05 09:56:47,729][3920097] EvtLoop [rollout_proc11_evt_loop, process=rollout_proc11] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance11'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,750][3920097] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc11_evt_loop
+[2023-12-05 09:56:47,713][3920093] EvtLoop [rollout_proc6_evt_loop, process=rollout_proc6] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance6'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,777][3920093] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc6_evt_loop
+[2023-12-05 09:56:47,731][3920982] EvtLoop [rollout_proc16_evt_loop, process=rollout_proc16] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance16'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,732][3921158] EvtLoop [rollout_proc19_evt_loop, process=rollout_proc19] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance19'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,781][3920982] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc16_evt_loop
+[2023-12-05 09:56:47,782][3921158] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc19_evt_loop
+[2023-12-05 09:56:47,733][3920099] EvtLoop [rollout_proc8_evt_loop, process=rollout_proc8] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance8'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,734][3920102] EvtLoop [rollout_proc14_evt_loop, process=rollout_proc14] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance14'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,734][3920101] EvtLoop [rollout_proc4_evt_loop, process=rollout_proc4] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance4'), args=(0, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,737][3921168] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc20_evt_loop
+[2023-12-05 09:56:47,801][3920101] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc4_evt_loop
+[2023-12-05 09:56:47,739][3920098] EvtLoop [rollout_proc5_evt_loop, process=rollout_proc5] unhandled exception in slot='advance_rollouts' connected to emitter=Emitter(object_id='InferenceWorker_p0-w0', signal_name='advance5'), args=(1, 0)
+Traceback (most recent call last):
+  File "/home/jakehate/.local/lib/python3.10/site-packages/signal_slot/signal_slot.py", line 355, in _process_signal
+    slot_callable(*args)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/rollout_worker.py", line 241, in advance_rollouts
+    complete_rollouts, episodic_stats = runner.advance_rollouts(policy_id, self.timing)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/sampling/non_batched_sampling.py", line 635, in advance_rollouts
+    new_obs, rewards, terminated, truncated, infos = e.step(actions)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 129, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/algo/utils/make_env.py", line 115, in step
+    obs, rew, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 555, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 522, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sample_factory_modified/envs/env_wrappers.py", line 92, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/gymnasium/core.py", line 461, in step
+    return self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/wrappers/multiplayer_stats.py", line 54, in step
+    obs, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/jakehate/.local/lib/python3.10/site-packages/sf_examples_modified/vizdoom/doom/doom_gym.py", line 454, in step
+    reward = self.game.make_action(actions_flattened, self.skip_frames)
+vizdoom.vizdoom.SignalException: Signal SIGINT received. ViZDoom instance has been closed.
+[2023-12-05 09:56:47,801][3920098] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc5_evt_loop
+[2023-12-05 09:56:47,831][3919932] Weights refcount: 2 0
+[2023-12-05 09:56:47,781][3919849] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001096_4489216.pth
+[2023-12-05 09:56:47,857][3919849] Stopping LearnerWorker_p0...
+[2023-12-05 09:56:47,857][3919849] Loop learner_proc0_evt_loop terminating...
+[2023-12-05 09:56:47,790][3920099] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc8_evt_loop
+[2023-12-05 09:56:47,790][3920102] Unhandled exception Signal SIGINT received. ViZDoom instance has been closed. in evt loop rollout_proc14_evt_loop
+[2023-12-05 09:56:47,847][3919932] Stopping InferenceWorker_p0-w0...
+[2023-12-05 09:56:47,891][3919932] Loop inference_proc0-0_evt_loop terminating...
+[2023-12-06 13:52:51,870][2767648] Saving configuration to /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/config.json...
+[2023-12-06 13:52:51,881][2767648] Rollout worker 0 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 1 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 2 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 3 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 4 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 5 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 6 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 7 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 8 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 9 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 10 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 11 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 12 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 13 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 14 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 15 uses device cpu
+[2023-12-06 13:52:51,881][2767648] Rollout worker 16 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 17 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 18 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 19 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 20 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 21 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 22 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 23 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 24 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 25 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 26 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 27 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 28 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 29 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 30 uses device cpu
+[2023-12-06 13:52:51,882][2767648] Rollout worker 31 uses device cpu
+[2023-12-06 13:52:51,929][2767648] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-06 13:52:51,929][2767648] InferenceWorker_p0-w0: min num requests: 10
+[2023-12-06 13:52:52,052][2767648] Starting all processes...
+[2023-12-06 13:52:52,052][2767648] Starting process learner_proc0
+[2023-12-06 13:52:53,254][2767648] Starting all processes...
+[2023-12-06 13:52:53,258][2767870] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-06 13:52:53,258][2767870] Set environment var CUDA_VISIBLE_DEVICES to '0' (GPU indices [0]) for learning process 0
+[2023-12-06 13:52:53,261][2767648] Starting process inference_proc0-0
+[2023-12-06 13:52:53,261][2767648] Starting process rollout_proc0
+[2023-12-06 13:52:53,261][2767648] Starting process rollout_proc1
+[2023-12-06 13:52:53,261][2767648] Starting process rollout_proc2
+[2023-12-06 13:52:53,264][2767648] Starting process rollout_proc3
+[2023-12-06 13:52:53,265][2767648] Starting process rollout_proc4
+[2023-12-06 13:52:53,265][2767648] Starting process rollout_proc5
+[2023-12-06 13:52:53,267][2767648] Starting process rollout_proc6
+[2023-12-06 13:52:53,267][2767648] Starting process rollout_proc7
+[2023-12-06 13:52:53,268][2767648] Starting process rollout_proc8
+[2023-12-06 13:52:53,270][2767648] Starting process rollout_proc9
+[2023-12-06 13:52:53,270][2767648] Starting process rollout_proc10
+[2023-12-06 13:52:53,271][2767648] Starting process rollout_proc11
+[2023-12-06 13:52:53,272][2767648] Starting process rollout_proc12
+[2023-12-06 13:52:53,272][2767648] Starting process rollout_proc13
+[2023-12-06 13:52:53,273][2767648] Starting process rollout_proc14
+[2023-12-06 13:52:53,346][2767870] Num visible devices: 1
+[2023-12-06 13:52:53,440][2767870] Starting seed is not provided
+[2023-12-06 13:52:53,440][2767870] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-06 13:52:53,440][2767870] Initializing actor-critic model on device cuda:0
+[2023-12-06 13:52:53,441][2767870] RunningMeanStd input shape: (3, 72, 128)
+[2023-12-06 13:52:53,441][2767870] RunningMeanStd input shape: (1,)
+[2023-12-06 13:52:53,449][2767870] ConvEncoder: input_channels=3
+[2023-12-06 13:52:53,742][2767870] Conv encoder output size: 512
+[2023-12-06 13:52:53,742][2767870] Policy head output size: 512
+[2023-12-06 13:52:53,760][2767870] Created Actor Critic model with architecture:
+[2023-12-06 13:52:53,760][2767870] ActorCriticSharedWeights(
+  (obs_normalizer): ObservationNormalizer(
+    (running_mean_std): RunningMeanStdDictInPlace(
+      (running_mean_std): ModuleDict(
+        (obs): RunningMeanStdInPlace()
+      )
+    )
+  )
+  (returns_normalizer): RecursiveScriptModule(original_name=RunningMeanStdInPlace)
+  (encoder): DoomEncoder(
+    (basic_encoder): ConvEncoder(
+      (enc): RecursiveScriptModule(
+        original_name=ConvEncoderImpl
+        (conv_head): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Conv2d)
+          (1): RecursiveScriptModule(original_name=ELU)
+          (2): RecursiveScriptModule(original_name=Conv2d)
+          (3): RecursiveScriptModule(original_name=ELU)
+          (4): RecursiveScriptModule(original_name=Conv2d)
+          (5): RecursiveScriptModule(original_name=ELU)
+        )
+        (mlp_layers): RecursiveScriptModule(
+          original_name=Sequential
+          (0): RecursiveScriptModule(original_name=Linear)
+          (1): RecursiveScriptModule(original_name=ELU)
+        )
+      )
+    )
+  )
+  (core): ModelCoreRNN(
+    (core): GRU(512, 512)
+  )
+  (decoder): MlpDecoder(
+    (mlp): Identity()
+  )
+  (critic_linear): Linear(in_features=512, out_features=1, bias=True)
+  (action_parameterization): ActionParameterizationDefault(
+    (distribution_linear): Linear(in_features=512, out_features=11, bias=True)
+  )
+)
+[2023-12-06 13:52:54,415][2767870] Using optimizer <class 'torch.optim.adam.Adam'>
+[2023-12-06 13:52:54,416][2767870] Loading state from checkpoint /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001271_5206016.pth...
+[2023-12-06 13:52:54,481][2767870] Loading model from checkpoint
+[2023-12-06 13:52:54,482][2767870] Loaded experiment state at self.train_step=1271, self.env_steps=5206016
+[2023-12-06 13:52:54,483][2767870] Initialized policy 0 weights for model version 1271
+[2023-12-06 13:52:54,489][2767870] LearnerWorker_p0 finished initialization!
+[2023-12-06 13:52:54,489][2767870] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-06 13:52:55,817][2767648] Starting process rollout_proc15
+[2023-12-06 13:52:55,830][2767952] Using GPUs [0] for process 0 (actually maps to GPUs [0])
+[2023-12-06 13:52:55,830][2767952] Set environment var CUDA_VISIBLE_DEVICES to '0' (GPU indices [0]) for inference process 0
+[2023-12-06 13:52:55,872][2767952] Num visible devices: 1
+[2023-12-06 13:52:56,030][2767648] Starting process rollout_proc16
+[2023-12-06 13:52:56,040][2767648] Starting process rollout_proc17
+[2023-12-06 13:52:56,044][2767648] Starting process rollout_proc18
+[2023-12-06 13:52:56,050][2768119] Worker 9 uses CPU cores [9]
+[2023-12-06 13:52:56,051][2768121] Worker 10 uses CPU cores [10]
+[2023-12-06 13:52:56,054][2767953] Worker 0 uses CPU cores [0]
+[2023-12-06 13:52:56,061][2767648] Starting process rollout_proc19
+[2023-12-06 13:52:56,081][2768112] Worker 11 uses CPU cores [11]
+[2023-12-06 13:52:56,119][2767648] Starting process rollout_proc20
+[2023-12-06 13:52:56,139][2768117] Worker 5 uses CPU cores [5]
+[2023-12-06 13:52:56,170][2767648] Starting process rollout_proc21
+[2023-12-06 13:52:56,207][2767648] Starting process rollout_proc22
+[2023-12-06 13:52:56,216][2768120] Worker 12 uses CPU cores [12]
+[2023-12-06 13:52:56,222][2768111] Worker 2 uses CPU cores [2]
+[2023-12-06 13:52:56,300][2767648] Starting process rollout_proc23
+[2023-12-06 13:52:56,329][2767648] Starting process rollout_proc24
+[2023-12-06 13:52:56,334][2767952] RunningMeanStd input shape: (3, 72, 128)
+[2023-12-06 13:52:56,340][2767952] RunningMeanStd input shape: (1,)
+[2023-12-06 13:52:56,354][2768114] Worker 6 uses CPU cores [6]
+[2023-12-06 13:52:56,375][2767648] Starting process rollout_proc25
+[2023-12-06 13:52:56,390][2767648] Starting process rollout_proc26
+[2023-12-06 13:52:56,444][2768115] Worker 14 uses CPU cores [14]
+[2023-12-06 13:52:56,452][2767955] Worker 3 uses CPU cores [3]
+[2023-12-06 13:52:56,455][2768113] Worker 4 uses CPU cores [4]
+[2023-12-06 13:52:56,436][2767952] ConvEncoder: input_channels=3
+[2023-12-06 13:52:56,514][2767648] Starting process rollout_proc27
+[2023-12-06 13:52:56,526][2767648] Starting process rollout_proc28
+[2023-12-06 13:52:56,546][2768116] Worker 13 uses CPU cores [13]
+[2023-12-06 13:52:56,565][2767954] Worker 1 uses CPU cores [1]
+[2023-12-06 13:52:56,891][2767952] Conv encoder output size: 512
+[2023-12-06 13:52:56,891][2767952] Policy head output size: 512
+[2023-12-06 13:52:56,894][2767648] Starting process rollout_proc29
+[2023-12-06 13:52:56,922][2768122] Worker 7 uses CPU cores [7]
+[2023-12-06 13:52:56,951][2767648] Starting process rollout_proc30
+[2023-12-06 13:52:56,955][2768118] Worker 8 uses CPU cores [8]
+[2023-12-06 13:52:58,999][2767648] Starting process rollout_proc31
+[2023-12-06 13:52:59,011][2768889] Worker 15 uses CPU cores [15]
+[2023-12-06 13:52:59,371][2769015] Worker 16 uses CPU cores [16]
+[2023-12-06 13:52:59,604][2769016] Worker 17 uses CPU cores [17]
+[2023-12-06 13:52:59,653][2769017] Worker 18 uses CPU cores [18]
+[2023-12-06 13:52:59,718][2769425] Worker 23 uses CPU cores [23]
+[2023-12-06 13:52:59,742][2769551] Worker 25 uses CPU cores [25]
+[2023-12-06 13:52:59,751][2769142] Worker 19 uses CPU cores [19]
+[2023-12-06 13:52:59,799][2769298] Worker 21 uses CPU cores [21]
+[2023-12-06 13:52:59,836][2769484] Worker 24 uses CPU cores [24]
+[2023-12-06 13:52:59,859][2769552] Worker 26 uses CPU cores [26]
+[2023-12-06 13:52:59,861][2769699] Worker 28 uses CPU cores [28]
+[2023-12-06 13:52:59,868][2769361] Worker 22 uses CPU cores [22]
+[2023-12-06 13:52:59,934][2769205] Worker 20 uses CPU cores [20]
+[2023-12-06 13:52:59,951][2769678] Worker 27 uses CPU cores [27]
+[2023-12-06 13:52:59,963][2769938] Worker 30 uses CPU cores [30]
+[2023-12-06 13:53:00,036][2769897] Worker 29 uses CPU cores [29]
+[2023-12-06 13:53:01,230][2770184] Worker 31 uses CPU cores [31]
+[2023-12-06 13:53:01,231][2767648] Inference worker 0-0 is ready!
+[2023-12-06 13:53:01,231][2767648] All inference workers are ready! Signal rollout workers to start!
+[2023-12-06 13:53:01,234][2767648] Fps is (10 sec: nan, 60 sec: nan, 300 sec: nan). Total num frames: 5206016. Throughput: 0: nan. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-06 13:53:01,234][2767648] Fps is (10 sec: 0.0, 60 sec: 0.0, 300 sec: 0.0). Total num frames: 5206016. Throughput: 0: 0.0. Samples: 0. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-06 13:53:01,338][2768116] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,339][2767955] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,339][2768112] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,339][2769205] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,340][2768121] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,341][2768111] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,342][2768120] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,343][2768113] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,343][2769699] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,345][2768889] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,347][2769938] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,348][2768114] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,349][2768115] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,349][2769298] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,349][2769015] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,349][2769484] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,350][2768117] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,350][2769551] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,350][2769361] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,351][2767953] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,351][2769142] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,352][2768119] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,352][2769552] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,352][2769897] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,352][2769678] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,353][2768122] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,356][2768118] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,357][2767954] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,358][2769017] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,358][2769016] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,368][2769425] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,507][2768113] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,508][2768111] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,510][2767955] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,512][2768116] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,514][2768120] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,521][2768117] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,523][2769205] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,524][2768115] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,525][2769425] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,664][2768118] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,684][2767954] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,687][2768116] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,687][2768113] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,691][2768117] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,697][2768111] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,698][2767955] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,720][2769425] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,722][2768114] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,731][2769699] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,880][2770184] Doom resolution: 160x120, resize resolution: (128, 72)
+[2023-12-06 13:53:01,892][2767954] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,896][2768121] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,897][2768889] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,909][2768115] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,911][2768118] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,914][2769361] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,920][2769699] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:01,935][2769938] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:01,937][2769552] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,054][2768120] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,071][2768114] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,077][2769551] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,078][2768121] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,097][2769017] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,111][2767953] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,116][2769552] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,140][2769938] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,176][2769678] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,227][2769897] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,256][2769361] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,260][2768112] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,281][2769298] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,310][2770184] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,328][2769551] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,417][2769205] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,417][2769897] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,427][2769017] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,444][2769142] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,451][2767953] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,509][2769678] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,532][2768889] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,589][2770184] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,607][2769298] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,611][2769142] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,636][2768119] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,743][2768112] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,806][2768119] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:02,832][2768122] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,928][2769484] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:02,968][2769016] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:03,080][2769484] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:03,089][2769015] Decorrelating experience for 0 frames...
+[2023-12-06 13:53:03,147][2768122] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:03,244][2769015] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:03,272][2769016] Decorrelating experience for 32 frames...
+[2023-12-06 13:53:04,004][2767870] Signal inference workers to stop experience collection...
+[2023-12-06 13:53:04,010][2767952] InferenceWorker_p0-w0: stopping experience collection
+[2023-12-06 13:53:04,348][2767648] Fps is (10 sec: 0.0, 60 sec: 0.0, 300 sec: 0.0). Total num frames: 5206016. Throughput: 0: 495.8. Samples: 1544. Policy #0 lag: (min: -1.0, avg: -1.0, max: -1.0)
+[2023-12-06 13:53:04,348][2767648] Avg episode reward: [(0, '-0.617')]
+[2023-12-06 13:53:04,545][2767870] Signal inference workers to resume experience collection...
+[2023-12-06 13:53:04,546][2767952] InferenceWorker_p0-w0: resuming experience collection
+[2023-12-06 13:53:04,550][2768121] Stopping RolloutWorker_w10...
+[2023-12-06 13:53:04,551][2768121] Loop rollout_proc10_evt_loop terminating...
+[2023-12-06 13:53:04,551][2768119] Stopping RolloutWorker_w9...
+[2023-12-06 13:53:04,551][2768119] Loop rollout_proc9_evt_loop terminating...
+[2023-12-06 13:53:04,551][2769551] Stopping RolloutWorker_w25...
+[2023-12-06 13:53:04,552][2769551] Loop rollout_proc25_evt_loop terminating...
+[2023-12-06 13:53:04,552][2769678] Stopping RolloutWorker_w27...
+[2023-12-06 13:53:04,553][2769678] Loop rollout_proc27_evt_loop terminating...
+[2023-12-06 13:53:04,555][2769938] Stopping RolloutWorker_w30...
+[2023-12-06 13:53:04,555][2769938] Loop rollout_proc30_evt_loop terminating...
+[2023-12-06 13:53:04,555][2768889] Stopping RolloutWorker_w15...
+[2023-12-06 13:53:04,555][2768113] Stopping RolloutWorker_w4...
+[2023-12-06 13:53:04,556][2768889] Loop rollout_proc15_evt_loop terminating...
+[2023-12-06 13:53:04,556][2768113] Loop rollout_proc4_evt_loop terminating...
+[2023-12-06 13:53:04,556][2769897] Stopping RolloutWorker_w29...
+[2023-12-06 13:53:04,557][2769897] Loop rollout_proc29_evt_loop terminating...
+[2023-12-06 13:53:04,557][2769015] Stopping RolloutWorker_w16...
+[2023-12-06 13:53:04,557][2768117] Stopping RolloutWorker_w5...
+[2023-12-06 13:53:04,557][2768116] Stopping RolloutWorker_w13...
+[2023-12-06 13:53:04,557][2768117] Loop rollout_proc5_evt_loop terminating...
+[2023-12-06 13:53:04,557][2769015] Loop rollout_proc16_evt_loop terminating...
+[2023-12-06 13:53:04,557][2768112] Stopping RolloutWorker_w11...
+[2023-12-06 13:53:04,557][2768115] Stopping RolloutWorker_w14...
+[2023-12-06 13:53:04,557][2768116] Loop rollout_proc13_evt_loop terminating...
+[2023-12-06 13:53:04,557][2767955] Stopping RolloutWorker_w3...
+[2023-12-06 13:53:04,557][2769361] Stopping RolloutWorker_w22...
+[2023-12-06 13:53:04,558][2768112] Loop rollout_proc11_evt_loop terminating...
+[2023-12-06 13:53:04,558][2768115] Loop rollout_proc14_evt_loop terminating...
+[2023-12-06 13:53:04,558][2768120] Stopping RolloutWorker_w12...
+[2023-12-06 13:53:04,558][2767955] Loop rollout_proc3_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769361] Loop rollout_proc22_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769699] Stopping RolloutWorker_w28...
+[2023-12-06 13:53:04,558][2769017] Stopping RolloutWorker_w18...
+[2023-12-06 13:53:04,558][2768118] Stopping RolloutWorker_w8...
+[2023-12-06 13:53:04,558][2768120] Loop rollout_proc12_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769142] Stopping RolloutWorker_w19...
+[2023-12-06 13:53:04,558][2769017] Loop rollout_proc18_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769699] Loop rollout_proc28_evt_loop terminating...
+[2023-12-06 13:53:04,558][2768118] Loop rollout_proc8_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769142] Loop rollout_proc19_evt_loop terminating...
+[2023-12-06 13:53:04,558][2769205] Stopping RolloutWorker_w20...
+[2023-12-06 13:53:04,558][2769298] Stopping RolloutWorker_w21...
+[2023-12-06 13:53:04,558][2769425] Stopping RolloutWorker_w23...
+[2023-12-06 13:53:04,558][2769484] Stopping RolloutWorker_w24...
+[2023-12-06 13:53:04,559][2769298] Loop rollout_proc21_evt_loop terminating...
+[2023-12-06 13:53:04,559][2769425] Loop rollout_proc23_evt_loop terminating...
+[2023-12-06 13:53:04,559][2769205] Loop rollout_proc20_evt_loop terminating...
+[2023-12-06 13:53:04,559][2770184] Stopping RolloutWorker_w31...
+[2023-12-06 13:53:04,559][2768122] Stopping RolloutWorker_w7...
+[2023-12-06 13:53:04,559][2769484] Loop rollout_proc24_evt_loop terminating...
+[2023-12-06 13:53:04,559][2769552] Stopping RolloutWorker_w26...
+[2023-12-06 13:53:04,559][2770184] Loop rollout_proc31_evt_loop terminating...
+[2023-12-06 13:53:04,559][2768122] Loop rollout_proc7_evt_loop terminating...
+[2023-12-06 13:53:04,559][2767954] Stopping RolloutWorker_w1...
+[2023-12-06 13:53:04,559][2769016] Stopping RolloutWorker_w17...
+[2023-12-06 13:53:04,560][2767954] Loop rollout_proc1_evt_loop terminating...
+[2023-12-06 13:53:04,560][2768111] Stopping RolloutWorker_w2...
+[2023-12-06 13:53:04,560][2769552] Loop rollout_proc26_evt_loop terminating...
+[2023-12-06 13:53:04,560][2769016] Loop rollout_proc17_evt_loop terminating...
+[2023-12-06 13:53:04,560][2768111] Loop rollout_proc2_evt_loop terminating...
+[2023-12-06 13:53:04,560][2768114] Stopping RolloutWorker_w6...
+[2023-12-06 13:53:04,561][2768114] Loop rollout_proc6_evt_loop terminating...
+[2023-12-06 13:53:04,563][2767953] Stopping RolloutWorker_w0...
+[2023-12-06 13:53:04,564][2767953] Loop rollout_proc0_evt_loop terminating...
+[2023-12-06 13:53:04,578][2767648] Component RolloutWorker_w10 stopped!
+[2023-12-06 13:53:04,579][2767648] Component RolloutWorker_w9 stopped!
+[2023-12-06 13:53:04,580][2767648] Component RolloutWorker_w25 stopped!
+[2023-12-06 13:53:04,580][2767648] Component RolloutWorker_w27 stopped!
+[2023-12-06 13:53:04,580][2767648] Component RolloutWorker_w30 stopped!
+[2023-12-06 13:53:04,581][2767648] Component RolloutWorker_w4 stopped!
+[2023-12-06 13:53:04,581][2767648] Component RolloutWorker_w15 stopped!
+[2023-12-06 13:53:04,581][2767648] Component RolloutWorker_w29 stopped!
+[2023-12-06 13:53:04,582][2767648] Component RolloutWorker_w16 stopped!
+[2023-12-06 13:53:04,582][2767648] Component RolloutWorker_w5 stopped!
+[2023-12-06 13:53:04,582][2767648] Component RolloutWorker_w13 stopped!
+[2023-12-06 13:53:04,582][2767870] Stopping Batcher_0...
+[2023-12-06 13:53:04,583][2767648] Component RolloutWorker_w11 stopped!
+[2023-12-06 13:53:04,583][2767648] Component RolloutWorker_w14 stopped!
+[2023-12-06 13:53:04,583][2767870] Loop batcher_evt_loop terminating...
+[2023-12-06 13:53:04,583][2767648] Component RolloutWorker_w22 stopped!
+[2023-12-06 13:53:04,583][2767648] Component RolloutWorker_w3 stopped!
+[2023-12-06 13:53:04,583][2767648] Component RolloutWorker_w12 stopped!
+[2023-12-06 13:53:04,584][2767648] Component RolloutWorker_w28 stopped!
+[2023-12-06 13:53:04,584][2767648] Component RolloutWorker_w8 stopped!
+[2023-12-06 13:53:04,584][2767648] Component RolloutWorker_w18 stopped!
+[2023-12-06 13:53:04,584][2767648] Component RolloutWorker_w19 stopped!
+[2023-12-06 13:53:04,584][2767648] Component RolloutWorker_w23 stopped!
+[2023-12-06 13:53:04,585][2767648] Component RolloutWorker_w20 stopped!
+[2023-12-06 13:53:04,585][2767648] Component RolloutWorker_w21 stopped!
+[2023-12-06 13:53:04,585][2767648] Component RolloutWorker_w24 stopped!
+[2023-12-06 13:53:04,585][2767648] Component RolloutWorker_w7 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w31 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w26 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w1 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w17 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w2 stopped!
+[2023-12-06 13:53:04,586][2767648] Component RolloutWorker_w6 stopped!
+[2023-12-06 13:53:04,587][2767648] Component RolloutWorker_w0 stopped!
+[2023-12-06 13:53:04,587][2767648] Component Batcher_0 stopped!
+[2023-12-06 13:53:04,633][2767952] Weights refcount: 2 0
+[2023-12-06 13:53:04,636][2767952] Stopping InferenceWorker_p0-w0...
+[2023-12-06 13:53:04,637][2767952] Loop inference_proc0-0_evt_loop terminating...
+[2023-12-06 13:53:04,637][2767648] Component InferenceWorker_p0-w0 stopped!
+[2023-12-06 13:53:05,377][2767870] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001273_5214208.pth...
+[2023-12-06 13:53:05,480][2767870] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001243_5091328.pth
+[2023-12-06 13:53:05,552][2767870] Saving /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001274_5218304.pth...
+[2023-12-06 13:53:05,637][2767870] Removing /home/jakehate/MLG_Project/train_dir/hallway_exp_normal/checkpoint_p0/checkpoint_000001271_5206016.pth
+[2023-12-06 13:53:05,643][2767870] Stopping LearnerWorker_p0...
+[2023-12-06 13:53:05,643][2767870] Loop learner_proc0_evt_loop terminating...
+[2023-12-06 13:53:05,643][2767648] Component LearnerWorker_p0 stopped!
+[2023-12-06 13:53:05,644][2767648] Waiting for process learner_proc0 to stop...
+[2023-12-06 13:53:06,093][2767648] Waiting for process inference_proc0-0 to join...
+[2023-12-06 13:53:06,093][2767648] Waiting for process rollout_proc0 to join...
+[2023-12-06 13:53:06,094][2767648] Waiting for process rollout_proc1 to join...
+[2023-12-06 13:53:06,094][2767648] Waiting for process rollout_proc2 to join...
+[2023-12-06 13:53:06,094][2767648] Waiting for process rollout_proc3 to join...
+[2023-12-06 13:53:06,094][2767648] Waiting for process rollout_proc4 to join...
+[2023-12-06 13:53:06,095][2767648] Waiting for process rollout_proc5 to join...
+[2023-12-06 13:53:06,095][2767648] Waiting for process rollout_proc6 to join...
+[2023-12-06 13:53:06,095][2767648] Waiting for process rollout_proc7 to join...
+[2023-12-06 13:53:06,095][2767648] Waiting for process rollout_proc8 to join...
+[2023-12-06 13:53:06,096][2767648] Waiting for process rollout_proc9 to join...
+[2023-12-06 13:53:06,096][2767648] Waiting for process rollout_proc10 to join...
+[2023-12-06 13:53:06,096][2767648] Waiting for process rollout_proc11 to join...
+[2023-12-06 13:53:06,096][2767648] Waiting for process rollout_proc12 to join...
+[2023-12-06 13:53:06,097][2767648] Waiting for process rollout_proc13 to join...
+[2023-12-06 13:53:06,097][2767648] Waiting for process rollout_proc14 to join...
+[2023-12-06 13:53:06,097][2767648] Waiting for process rollout_proc15 to join...
+[2023-12-06 13:53:06,097][2767648] Waiting for process rollout_proc16 to join...
+[2023-12-06 13:53:06,098][2767648] Waiting for process rollout_proc17 to join...
+[2023-12-06 13:53:06,098][2767648] Waiting for process rollout_proc18 to join...
+[2023-12-06 13:53:06,098][2767648] Waiting for process rollout_proc19 to join...
+[2023-12-06 13:53:06,098][2767648] Waiting for process rollout_proc20 to join...
+[2023-12-06 13:53:06,099][2767648] Waiting for process rollout_proc21 to join...
+[2023-12-06 13:53:06,099][2767648] Waiting for process rollout_proc22 to join...
+[2023-12-06 13:53:06,099][2767648] Waiting for process rollout_proc23 to join...
+[2023-12-06 13:53:06,099][2767648] Waiting for process rollout_proc24 to join...
+[2023-12-06 13:53:06,100][2767648] Waiting for process rollout_proc25 to join...
+[2023-12-06 13:53:06,100][2767648] Waiting for process rollout_proc26 to join...
+[2023-12-06 13:53:06,100][2767648] Waiting for process rollout_proc27 to join...
+[2023-12-06 13:53:06,100][2767648] Waiting for process rollout_proc28 to join...
+[2023-12-06 13:53:06,100][2767648] Waiting for process rollout_proc29 to join...
+[2023-12-06 13:53:06,101][2767648] Waiting for process rollout_proc30 to join...
+[2023-12-06 13:53:06,101][2767648] Waiting for process rollout_proc31 to join...
+[2023-12-06 13:53:06,101][2767648] Batcher 0 profile tree view:
+batching: 0.2468, releasing_batches: 0.0368
+[2023-12-06 13:53:06,101][2767648] InferenceWorker_p0-w0 profile tree view:
+wait_policy: 0.0052
+  wait_policy_total: 4.7456
+update_model: 0.0090
+  weight_update: 0.0011
+one_step: 0.0087
+  handle_policy_step: 2.2579
+    deserialize: 0.0454, stack: 0.0040, obs_to_device_normalize: 0.2327, forward: 1.7608, send_messages: 0.1142
+    prepare_outputs: 0.0790
+      to_cpu: 0.0545
+[2023-12-06 13:53:06,102][2767648] Learner 0 profile tree view:
+misc: 0.0000, prepare_batch: 1.1931
+train: 1.1783
+  epoch_init: 0.0000, minibatch_init: 0.0000, losses_postprocess: 0.0015, kl_divergence: 0.0086, after_optimizer: 0.0497
+  calculate_losses: 0.5888
+    losses_init: 0.0000, forward_head: 0.1709, bptt_initial: 0.3398, tail: 0.0326, advantages_returns: 0.0012, losses: 0.0360
+    bptt: 0.0073
+      bptt_forward_core: 0.0070
+  update: 0.5274
+    clip: 0.0149
+[2023-12-06 13:53:06,102][2767648] RolloutWorker_w0 profile tree view:
+wait_for_trajectories: 0.0005, enqueue_policy_requests: 0.0188, env_step: 0.0948, overhead: 0.0073, complete_rollouts: 0.0004
+save_policy_outputs: 0.0163
+  split_output_tensors: 0.0050
+[2023-12-06 13:53:06,102][2767648] RolloutWorker_w31 profile tree view:
+wait_for_trajectories: 0.0004, enqueue_policy_requests: 0.0154, env_step: 0.0943, overhead: 0.0077, complete_rollouts: 0.0004
+save_policy_outputs: 0.0159
+  split_output_tensors: 0.0045
+[2023-12-06 13:53:06,102][2767648] Loop Runner_EvtLoop terminating...
+[2023-12-06 13:53:06,103][2767648] Runner profile tree view:
+main_loop: 14.0505
+[2023-12-06 13:53:06,103][2767648] Collected {0: 5218304}, FPS: 874.6

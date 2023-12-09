@@ -854,7 +854,7 @@ class VizdoomEnvGeo(VizdoomEnv):
                     "prev":0
                 },  
                 "player-inside-sector": {
-                    "data":-np.ones((2,2)),
+                    "data":-np.ones((self.MAX_NODES+1,2)),
                     "graph":{},
                     "prev":0
                 },
@@ -1206,11 +1206,11 @@ class VizdoomEnvGeo(VizdoomEnv):
             for node in self.get_all_nodes_from_graph(["sector","player"]):
 
                 if not node.id in object_ids:
-                    if self.node_in_graph(node.id,node_type):
+                    if self.node_in_graph(node.id,node.type):
                         for connection in self.get_all_node_connections(node.id):
                             self.disconnect_nodes(connection.n1,connection.n2,connection.type)
 
-                        self.delete_node(node.id,node_type)
+                        self.delete_node(node.id,node.type)
 
             for type in self.graph_data["N"]:
                 count = 1
